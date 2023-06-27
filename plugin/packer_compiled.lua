@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/klade/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/klade/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/theprimeagen/harpoon"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/klade/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
