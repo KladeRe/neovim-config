@@ -11,7 +11,12 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-	use { "catppuccin/nvim", as = "catppuccin" }
+	use {
+		"loctvl842/monokai-pro.nvim",
+		config = function()
+			require("monokai-pro").setup()
+		end
+	}
 	use {
 		'nvim-treesitter/nvim-treesitter',
 		run = function()
